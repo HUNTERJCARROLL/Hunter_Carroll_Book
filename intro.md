@@ -1,6 +1,4 @@
----
-author: Hunter Carroll
----
+# my intro
 
 This is my page.
 
