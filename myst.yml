@@ -1,0 +1,36 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: bf3710aa-aacd-4212-89df-4f1342cbce54
+  title: Graduate School Notes 
+  description: Notes and Materials for Graduate School
+  # keywords: []
+  authors: [ Hunter Carroll ]
+  github: https://github.com/HUNTERJCARROLL/Hunter_Carroll_Book
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+
+  toc:
+    - file: intro.md
+    # Research Section
+    - file: Research/ISA_Intro.md
+      children:
+        - file: Research/ISA_Section_1.md
+    # Applied Analysis Section
+    - file: Applied_Analysis/Applied_Analysis.md
+      children:
+        - file: Applied_Analysis/Section_1_analysis.md
+        
+    
+    
+site:
+  template: book-theme
+  logo_text: Graduate School Notes/Research - Hunter Carroll
+  actions:
+    - title: GitHub
+      url: https://github.com/HUNTERJCARROLL/Hunter_Carroll_Book
+  options:
+    #favicon: favicon.ico
+    logo: Images/MrCrabs.JPG
