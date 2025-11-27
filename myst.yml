@@ -22,9 +22,11 @@ project:
     - file: Applied_Analysis/Applied_Analysis.md
       children:
         - file: Applied_Analysis/Section_1_analysis.md
+
+  bibliography:
+    - references.bib
         
-    
-    
+  
 site:
   template: book-theme
   logo_text: Graduate School Notes/Research - Hunter Carroll
@@ -34,3 +36,4 @@ site:
   options:
     #favicon: favicon.ico
     logo: Images/MrCrabs.JPG
+    numbered_references: true
