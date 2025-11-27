@@ -22,6 +22,9 @@ project:
     - file: Applied_Analysis/Applied_Analysis.md
       children:
         - file: Applied_Analysis/Section_1_analysis.md
+    # Bibliography file
+    - file: references.md
+       
 
   bibliography:
     - references.bib
