@@ -1,4 +1,3 @@
-```md
 ---
 title: References
 ---
@@ -6,4 +5,6 @@ title: References
 (references)=
 # References
 
-- @RoperHakulaButler2025
+Cites the paper as narrative: @RoperHakulaButler2025.
+
+Parenthetical style: [@RoperHakulaButler2025].

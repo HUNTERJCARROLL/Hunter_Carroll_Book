@@ -11,10 +11,6 @@ project:
     code: MIT
     content: CC-BY-4.0
 
-  # Tell MyST where your BibTeX lives
-  bibliography:
-    - references.bib
-
   toc:
     - file: intro.md
     - title: Research
@@ -27,6 +23,9 @@ project:
         - file: Applied_Analysis/Section_1_analysis.md
     - title: References
       file: references.md
+  bibliography:
+    - references.bib
+
 
 site:
   template: book-theme
