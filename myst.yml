@@ -26,7 +26,7 @@ project:
     
     
 site:
-  template: book-theme
+  template: article-theme
   logo_text: Graduate School Notes/Research - Hunter Carroll
   actions:
     - title: GitHub
