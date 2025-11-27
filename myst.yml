@@ -25,6 +25,8 @@ project:
       children:
         - file: Applied_Analysis/Applied_Analysis.md
         - file: Applied_Analysis/Section_1_analysis.md
+    - title: References
+      file: references.md
 
 site:
   template: book-theme
