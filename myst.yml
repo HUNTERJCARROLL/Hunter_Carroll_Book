@@ -25,7 +25,7 @@ project:
     - references.bib
 
 
-site:ß
+site:
   template: book-theme
   title: Graduate School Notes
   actions:
