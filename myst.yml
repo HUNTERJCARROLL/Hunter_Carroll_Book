@@ -13,7 +13,7 @@ project:
 
   toc:
     - file: intro.md
-    - title: Research
+    - title: GRFP Grant Proposal
       children:
         - file: Research/ISA_Intro.md
         - file: Research/ISA_Section_1.md
@@ -21,13 +21,11 @@ project:
       children:
         - file: Applied_Analysis/Applied_Analysis.md
         - file: Applied_Analysis/Section_1_analysis.md
-    - title: References
-      file: references.md
   bibliography:
     - references.bib
 
 
-site:
+site:ß
   template: book-theme
   title: Graduate School Notes
   actions:
