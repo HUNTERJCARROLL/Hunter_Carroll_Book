@@ -2,7 +2,7 @@
 author: Hunter Carroll
 ---
 
-![Me](images/me.jpg)
+![Me](images/selfpic.jpg)
 
 # Introduction
 
