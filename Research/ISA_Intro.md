@@ -29,6 +29,6 @@ the perspective provided in [2] nonetheless proves prescient in this work.
 At a high-level, we present novel developments within a
 machine learning-enabled data-to-distribution pipeline to transform (noisy) observed and predicted spatio-temporal data clouds into
 samples of (vector-valued) quantities of interest (QoI) that enables the construction of a data-consistent update to initially assumed
-distributions on model parameters via the ratio of (non-parametric) observed and predicted distributions of the QoI
+distributions on model parameters via the ratio of (non-parametric) observed and predicted distributions of the QoI. Test
 
 
