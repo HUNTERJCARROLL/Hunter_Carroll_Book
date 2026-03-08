@@ -1,4 +1,12 @@
+---
+title: Syllabus for Applied Analysis
+author: Hunter Carroll
+---
+
 # Applied Analysis Syllabus
+
+You can find the syllabus [here](https://clas.ucdenver.edu/mathematical-and-statistical-sciences/applied-analysis-preliminary-exam-syllabus) along with previous exams and solutions [here](https://clas.ucdenver.edu/mathematical-and-statistical-sciences/previous-applied-analysis-exams-and-solutions). 
+
 
 * **Real and complex numbers; infimum/supremum**
   Rudin: §1.1–1.20, §1.23–1.38
