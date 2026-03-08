@@ -3,7 +3,7 @@ version: 1
 project:
   id: bf3710aa-aacd-4212-89df-4f1342cbce54
   title: Graduate School Notes 
-  banner: Images/MrCrabs.JPG
+  banner: Images/banner.JPG
   description: Notes and Materials for Graduate School
   authors:
     - name: Hunter Carroll
