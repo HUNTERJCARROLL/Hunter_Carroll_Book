@@ -17,6 +17,10 @@ project:
       children:
         - file: Applied_Analysis/Applied_Analysis.md
         - file: Applied_Analysis/Content_Bin_1.md
+    - title: Applied Linear Algebra
+      children:
+        - file: Applied_Linear_Algebra/Applied_Linear_Algebra.md
+        - file: Applied_Linear_Algebra/Content_Bin_1.md
   bibliography:
     - references.bib
 
