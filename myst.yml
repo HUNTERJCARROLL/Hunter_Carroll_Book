@@ -16,7 +16,7 @@ project:
     - title: Applied Analysis
       children:
         - file: Applied_Analysis/Applied_Analysis.md
-        - file: Applied_Analysis/Section_1_analysis.md
+        - file: Applied_Analysis/Content_Bin_1.md
   bibliography:
     - references.bib
 
