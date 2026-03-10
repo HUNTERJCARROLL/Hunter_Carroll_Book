@@ -22,6 +22,10 @@ project:
         - file: Applied_Linear_Algebra/Applied_Linear_Algebra.md
         - file: Applied_Linear_Algebra/Content_Bin_1.md
   bibliography:
+    - title: Projects
+      children:
+        - file: Projects/Financial_Mathematics.md
+        
     - references.bib
 
 
