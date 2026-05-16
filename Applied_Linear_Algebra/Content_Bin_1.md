@@ -20,11 +20,11 @@ $$
 \lambda v = 3(2,-1) = (6,-3) \in V.
 $$
 
-<font color = 'green'>The formal definition of a vector space </font>follows.
+The formal definition of a vector space follows.
 
 ---
 
-> <font color = 'green'>**Definition 1.20** *(Vector Space)*</font>
+> <span style="color: green;">**Definition 1.20** *(Vector Space)*</span>
 >
 > A *vector space* is a set $V$ along with an addition and scalar multiplication on $V$ such that the following properties hold:
 >
