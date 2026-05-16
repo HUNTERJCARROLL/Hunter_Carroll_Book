@@ -24,7 +24,7 @@ The formal definition of a vector space follows.
 
 ---
 
-> **Definition 1.20** *(Vector Space)*
+> <font color = 'green'>**Definition 1.20** *(Vector Space)*</font>
 >
 > A *vector space* is a set $V$ along with an addition and scalar multiplication on $V$ such that the following properties hold:
 >
