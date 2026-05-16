@@ -20,7 +20,7 @@ $$
 \lambda v = 3(2,-1) = (6,-3) \in V.
 $$
 
-The formal definition of a vector space follows.
+<font color = 'green'>The formal definition of a vector space </font>follows.
 
 ---
 
