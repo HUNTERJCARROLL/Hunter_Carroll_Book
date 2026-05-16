@@ -23,7 +23,7 @@ project:
         - file: Applied_Linear_Algebra/Content_Bin_1.md
     - title: Projects
       children:
-        - file: Projects/Financial_Mathematics.md
+        - file: Projects/Data_Science_Internship.md
   bibliography:
     - references.bib
 

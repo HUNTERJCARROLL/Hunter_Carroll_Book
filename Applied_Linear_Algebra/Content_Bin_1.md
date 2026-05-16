@@ -41,3 +41,5 @@ The formal definition of a vector space follows.
 >
 > - **Distributive Properties** — $a(u+v) = au+av$ and $(a+b)v = av+bv$  
 >   for all $a, b \in F$ and $u, v \in V$
+
+However, we need to be precise in how we define $F$ as the vector space depends on what we choose $F$ to be. For example, we could say "$\mathbb{R}^n$ is a vector space over $\mathbb{R}$" or "$\mathbb{C}^n$ is a vector space over $\mathbb{C}$". 
