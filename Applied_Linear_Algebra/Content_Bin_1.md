@@ -5,17 +5,17 @@ author: Hunter Carroll
 
 # Vector Spaces
 
-> **Definition 1.19** *(Addition, Scalar Multiplication)*
+> <span style="color:#fa9f02">**Definition 1.19** *(Addition, Scalar Multiplication)*</span>
 >
 > - An *addition* on a set $V$ is a function that assigns an element $u+v \in V$ to each pair of elements $u, v \in V$.
 > - A *scalar multiplication* on a set $V$ is a function that assigns an element $\lambda v \in V$ to each $\lambda \in F$ and each $v \in V$.
 
-**Example.** Let $V = \mathbb{R}^2$. If $u = (1,2)$ and $v = (3,4)$, then
+**<span style = 'color: #faee02'>Example.</span>** Let $V = \mathbb{R}^2$. If $u = (1,2)$ and $v = (3,4)$, then
 $$
 u + v = (1,2) + (3,4) = (4,6) \in V.
 $$
 
-**Example.** Let $V = \mathbb{R}^2$ over $\mathbb{R}$. If $\lambda = 3$ and $v = (2,-1)$, then
+**<span style = 'color: #faee02'>Example.</span>** Let $V = \mathbb{R}^2$ over $\mathbb{R}$. If $\lambda = 3$ and $v = (2,-1)$, then
 $$
 \lambda v = 3(2,-1) = (6,-3) \in V.
 $$
@@ -24,7 +24,7 @@ The formal definition of a vector space follows.
 
 ---
 
-> <span style="color: green;">**Definition 1.20** *(Vector Space)*</span>
+> <span style="color:#fa9f02">**Definition 1.20** *(Vector Space)*</span>
 >
 > A *vector space* is a set $V$ along with an addition and scalar multiplication on $V$ such that the following properties hold:
 >
