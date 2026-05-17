@@ -44,11 +44,11 @@ The formal definition of a vector space follows.
 
 However, we need to be precise in how we define $F$ as scalar multiplication in a vector space depends on $F$. For example, we could say "$\mathbb{R}^n$ is a vector space over $\mathbb{R}$" or "$\mathbb{C}^n$ is a vector space over $\mathbb{C}$". That is, a vector space over $\mathbb{R}$ is a real vector space and a vector space over $\mathbb{C}$ is a complex vector space.
 
-<span style="color:#7ec87e">**Note.**</span> The simplest vector space is $\{0\}$ containing only a single point. It still qualifies as a vector space because it satisfies all the vector space rules: adding zero to zero gives zero, multiplying zero by any scalar gives zero, etc.
+<span style="color:#7ec87e">Note.</span> The simplest vector space is $\{0\}$ containing only a single point. It still qualifies as a vector space because it satisfies all the vector space rules: adding zero to zero gives zero, multiplying zero by any scalar gives zero, etc.
 
-<span style="color:#7ec87e">**Note.**</span> The example given in the text is $F^{\infty}$, which is the set of all infinite sequences whose entries come from the field $F$, is conveying that $F^{\infty}$ is a vector space because infinite sequences can be added or scalar multiplied component by component. The only difference is that $F^{n}$ has finitely many coordinates.
+<span style="color:#7ec87e">Note.</span> The example given in the text is $F^{\infty}$, which is the set of all infinite sequences whose entries come from the field $F$, is conveying that $F^{\infty}$ is a vector space because infinite sequences can be added or scalar multiplied component by component. The only difference is that $F^{n}$ has finitely many coordinates.
 
-<span style="color:#5ab4e8">**Example. (A vector space involving a set of functions)**</span>  
+<span style="color:#5ab4e8">Example. (A vector space involving a set of functions)</span>  
 
 * If $S$ is a set, then $F^S$ denotes the set of functions from $S$ to $F$. 
 
