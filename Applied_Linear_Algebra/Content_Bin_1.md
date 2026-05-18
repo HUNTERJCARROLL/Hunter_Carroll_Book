@@ -1,71 +1,205 @@
 ---
 title: Vector Spaces
 author: Hunter Carroll
+description: Introductory notes on vector spaces, scalar multiplication, and examples over real and complex fields.
 ---
 
 # Vector Spaces
 
-> <span style="color:#e8a020">**Definition 1.19** *(Addition, Scalar Multiplication)*</span>
->
-> - An *addition* on a set $V$ is a function that assigns an element $u+v \in V$ to each pair of elements $u, v \in V$.
-> - A *scalar multiplication* on a set $V$ is a function that assigns an element $\lambda v \in V$ to each $\lambda \in F$ and each $v \in V$.
+:::{admonition} Definition 1.19: Addition and Scalar Multiplication
+:class: note
 
-<span style="color:#5ab4e8">Example.</span> Let $V = \mathbb{R}^2$. If $u = (1,2)$ and $v = (3,4)$, then
-$$ 
+An **addition** on a set $V$ is a function that assigns an element
+
+$$
+u + v \in V
+$$
+
+to each pair of elements $u, v \in V$.
+
+A **scalar multiplication** on a set $V$ is a function that assigns an element
+
+$$
+\lambda v \in V
+$$
+
+to each scalar $\lambda \in F$ and each vector $v \in V$.
+:::
+
+:::{admonition} Example: Addition in $\mathbb{R}^2$
+:class: tip
+
+Let $V = \mathbb{R}^2$. If
+
+$$
+u = (1,2), \qquad v = (3,4),
+$$
+
+then
+
+$$
 u + v = (1,2) + (3,4) = (4,6) \in V.
 $$
 
-<span style="color:#5ab4e8">Example.</span> Let $V = \mathbb{R}^2$ over $\mathbb{R}$. If $\lambda = 3$ and $v = (2,-1)$, then
+So addition combines vectors component by component.
+:::
+
+:::{admonition} Example: Scalar Multiplication in $\mathbb{R}^2$
+:class: tip
+
+Let $V = \mathbb{R}^2$ over $\mathbb{R}$. If
+
+$$
+\lambda = 3, \qquad v = (2,-1),
+$$
+
+then
+
 $$
 \lambda v = 3(2,-1) = (6,-3) \in V.
 $$
+
+So scalar multiplication stretches, shrinks, or reverses the direction of a vector depending on the scalar.
+:::
 
 The formal definition of a vector space follows.
 
 ---
 
-> <span style="color:#e8a020">**Definition 1.20** *(Vector Space)*</span>
->
-> A *vector space* is a set $V$ along with an addition and scalar multiplication on $V$ such that the following properties hold:
->
-> - **Commutativity** — $u + v = v + u$ for all $u, v \in V$
->
-> - **Associativity** — $(u+v)+w = u+(v+w)$ and $(ab)v = a(bv)$  
->   for all $u, v, w \in V$ and $a, b \in F$
->
-> - **Additive Identity** — there exists $0 \in V$ such that $v + 0 = v$ for all $v \in V$
->
-> - **Additive Inverse** — for every $v \in V$, there exists $w \in V$ such that $v + w = 0$
->
-> - **Multiplicative Identity** — $1v = v$ for all $v \in V$
->
-> - **Distributive Properties** — $a(u+v) = au+av$ and $(a+b)v = av+bv$  
->   for all $a, b \in F$ and $u, v \in V$
+:::{admonition} Definition 1.20: Vector Space
+:class: important
 
-However, we need to be precise in how we define $F$ as scalar multiplication in a vector space depends on $F$. For example, we could say "$\mathbb{R}^n$ is a vector space over $\mathbb{R}$" or "$\mathbb{C}^n$ is a vector space over $\mathbb{C}$". That is, a vector space over $\mathbb{R}$ is a real vector space and a vector space over $\mathbb{C}$ is a complex vector space.
+A **vector space** over a field $F$ is a set $V$ together with an addition operation and a scalar multiplication operation satisfying the following properties.
 
-<span style="color:#7ec87e">Note.</span> The simplest vector space is $\{0\}$ containing only a single point. It still qualifies as a vector space because it satisfies all the vector space rules: adding zero to zero gives zero, multiplying zero by any scalar gives zero, etc.
+For all $u,v,w \in V$ and all $a,b \in F$:
 
-<span style="color:#7ec87e">Note.</span> The example given in the text is $F^{\infty}$, which is the set of all infinite sequences whose entries come from the field $F$, is conveying that $F^{\infty}$ is a vector space because infinite sequences can be added or scalar multiplied component by component. The only difference is that $F^{n}$ has finitely many coordinates.
+1. **Commutativity**
 
-<span style="color:#5ab4e8">Example. (A vector space involving a set of functions)</span>  
+   $$
+   u + v = v + u.
+   $$
 
-* If $S$ is a set, then $F^S$ denotes the set of functions from $S$ to $F$. 
+2. **Associativity of Addition**
 
-* For $f, g \in F^S$, the sum $f+g \in F^S$ is the function defined by, 
+   $$
+   (u+v)+w = u+(v+w).
+   $$
+
+3. **Associativity of Scalar Multiplication**
+
+   $$
+   (ab)v = a(bv).
+   $$
+
+4. **Additive Identity**
+
+   There exists an element $0 \in V$ such that
+
+   $$
+   v + 0 = v.
+   $$
+
+5. **Additive Inverse**
+
+   For every $v \in V$, there exists $w \in V$ such that
+
+   $$
+   v + w = 0.
+   $$
+
+6. **Multiplicative Identity**
+
+   $$
+   1v = v.
+   $$
+
+7. **Distributivity over Vector Addition**
+
+   $$
+   a(u+v) = au + av.
+   $$
+
+8. **Distributivity over Scalar Addition**
+
+   $$
+   (a+b)v = av + bv.
+   $$
+:::
+
+## The Role of the Field $F$
+
+It is important to be precise about the field $F$ because scalar multiplication depends on the choice of scalars.
+
+For example:
+
+- $\mathbb{R}^n$ is a vector space over $\mathbb{R}$.
+- $\mathbb{C}^n$ is a vector space over $\mathbb{C}$.
+
+A vector space over $\mathbb{R}$ is called a **real vector space**, while a vector space over $\mathbb{C}$ is called a **complex vector space**.
+
+:::{note}
+The simplest vector space is $\{0\}$, the set containing only the zero vector.
+
+It satisfies all the vector space axioms:
 
 $$
-(f+g)(x)  = f(x) + g(x), \qquad \forall x \in S
+0 + 0 = 0,
 $$
 
-* For $\lambda \in F$ and $f \in F^S$ the product $\lambda f \in F^S$ is the function defined by, 
+and for every scalar $\lambda \in F$,
 
 $$
-(\lambda f)(x) = \lambda f(x),  \qquad \forall x \in S
+\lambda 0 = 0.
+$$
+:::
+
+:::{note}
+The space $F^\infty$ is the set of all infinite sequences whose entries come from the field $F$.
+
+An element of $F^\infty$ has the form
+
+$$
+(a_1,a_2,a_3,\dots),
 $$
 
-:::{admonition} Definition: Compact Operator
-:class: note
+where each $a_i \in F$.
 
-Let $X$ and $Y$ be Banach spaces. A linear operator $T:X \to Y$ is called compact if it maps bounded sets to relatively compact sets.
+This is a vector space because infinite sequences can be added and scalar multiplied component by component. The main difference between $F^n$ and $F^\infty$ is that $F^n$ has finitely many coordinates, while $F^\infty$ has infinitely many.
+:::
+
+## Function Spaces
+
+:::{admonition} Example: A Vector Space of Functions
+:class: tip
+
+Let $S$ be a set. Then $F^S$ denotes the set of all functions from $S$ to $F$:
+
+$$
+F^S = \{f : S \to F\}.
+$$
+
+For $f,g \in F^S$, define addition by
+
+$$
+(f+g)(x) = f(x) + g(x), \qquad \forall x \in S.
+$$
+
+For $\lambda \in F$ and $f \in F^S$, define scalar multiplication by
+
+$$
+(\lambda f)(x) = \lambda f(x), \qquad \forall x \in S.
+$$
+
+With these operations, $F^S$ is a vector space over $F$.
+:::
+
+:::{admonition} Key Idea
+:class: important
+
+A vector space is not just a set. It is a set equipped with two compatible operations:
+
+1. vector addition  
+2. scalar multiplication  
+
+The axioms guarantee that vectors can be combined algebraically in a consistent way.
 :::
