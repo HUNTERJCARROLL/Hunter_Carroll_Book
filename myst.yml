@@ -11,6 +11,8 @@ project:
     code: MIT
     content: CC-BY-4.0
 
+  jupyter: true
+
   toc:
     - file: intro.md
     - title: Applied Analysis
