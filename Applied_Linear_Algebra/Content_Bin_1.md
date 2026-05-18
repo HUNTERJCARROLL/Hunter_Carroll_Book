@@ -1,5 +1,5 @@
 ---
-title: Chapter 1 - Notes
+title: Vector Spaces
 author: Hunter Carroll
 ---
 
@@ -10,12 +10,12 @@ author: Hunter Carroll
 > - An *addition* on a set $V$ is a function that assigns an element $u+v \in V$ to each pair of elements $u, v \in V$.
 > - A *scalar multiplication* on a set $V$ is a function that assigns an element $\lambda v \in V$ to each $\lambda \in F$ and each $v \in V$.
 
-<span style="color:#5ab4e8">**Example.**</span> Let $V = \mathbb{R}^2$. If $u = (1,2)$ and $v = (3,4)$, then
-$$
+<span style="color:#5ab4e8">Example.</span> Let $V = \mathbb{R}^2$. If $u = (1,2)$ and $v = (3,4)$, then
+$$ 
 u + v = (1,2) + (3,4) = (4,6) \in V.
 $$
 
-<span style="color:#5ab4e8">**Example.**</span> Let $V = \mathbb{R}^2$ over $\mathbb{R}$. If $\lambda = 3$ and $v = (2,-1)$, then
+<span style="color:#5ab4e8">Example.</span> Let $V = \mathbb{R}^2$ over $\mathbb{R}$. If $\lambda = 3$ and $v = (2,-1)$, then
 $$
 \lambda v = 3(2,-1) = (6,-3) \in V.
 $$
