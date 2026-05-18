@@ -63,3 +63,9 @@ $$
 $$
 (\lambda f)(x) = \lambda f(x),  \qquad \forall x \in S
 $$
+
+:::{admonition} Definition: Compact Operator
+:class: note
+
+Let $X$ and $Y$ be Banach spaces. A linear operator $T:X \to Y$ is called compact if it maps bounded sets to relatively compact sets.
+:::
