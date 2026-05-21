@@ -43,6 +43,6 @@ site:
     logo: Images/MrCrabs.JPG
     logo_text: Hunter Carroll
     # Make references numbered like [1], [2], ...
-    favicon: Images/favicon.ico
+    favicon: ./Images/favicon.ico
     numbered_references: true
 
