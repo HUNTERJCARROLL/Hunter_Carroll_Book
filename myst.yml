@@ -23,14 +23,16 @@ project:
       children:
         - file: Applied_Linear_Algebra/Applied_Linear_Algebra.md
         - file: Applied_Linear_Algebra/Content_Bin_1.md
+    - title: Machine Learning
+      children:
+        - file: Chapter_1.md
     - title: Projects
       children:
         - file: Projects/Data_Science_Internship.md
         - file: Projects/notebook_test.ipynb
   bibliography:
     - references.bib
-
-
+    
 site:
   template: book-theme
   title: Graduate School Notes
