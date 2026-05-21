@@ -29,7 +29,6 @@ project:
     - title: Projects
       children:
         - file: Projects/Data_Science_Internship.md
-        - file: Projects/notebook_test.ipynb
         - file: Projects/Astronomy_ML.ipynb
   bibliography:
     - references.bib
