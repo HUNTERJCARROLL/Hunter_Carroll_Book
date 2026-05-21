@@ -1,11 +1,3 @@
----
-title: Graduate School Notes
-author: Hunter Carroll
-description: Notes, research, worked solutions, and mathematical reflections from my PhD studies in Applied Mathematics.
----
-
-# Hunter Carroll Personal Website
-
 :::{figure} /Images/selfpic.jpg
 :alt: Hunter Carroll
 :width: 260px
