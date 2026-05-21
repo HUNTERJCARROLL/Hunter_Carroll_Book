@@ -2,47 +2,56 @@ version: 1
 
 project:
   id: bf3710aa-aacd-4212-89df-4f1342cbce54
-  title: Hunter Carroll Personal Website 
-  description: Projects, notes, and research. 
+  title: Hunter Carroll
+  description: Personal academic website for Hunter Carroll.
   authors:
     - name: Hunter Carroll
   github: https://github.com/HUNTERJCARROLL/Hunter_Carroll_Book
   license:
     code: MIT
     content: CC-BY-4.0
-
   jupyter: true
 
   toc:
-    - file: intro.md
-    - title: Applied Analysis
+    - file: index.md
+    - file: about.md
+    - file: research.md
+    - file: projects.md
+    - title: Graduate Notes
       children:
-        - file: Applied_Analysis/Applied_Analysis.md
-        - file: Applied_Analysis/Content_Bin_1.md
-    - title: Applied Linear Algebra
-      children:
-        - file: Applied_Linear_Algebra/Applied_Linear_Algebra.md
-        - file: Applied_Linear_Algebra/Content_Bin_1.md
-    - title: Machine Learning
-      children:
-        - file: Machine_Learning/Chapter_1.md
+        - file: notes.md
+        - title: Applied Analysis
+          children:
+            - file: Applied_Analysis/Applied_Analysis.md
+            - file: Applied_Analysis/Content_Bin_1.md
+        - title: Applied Linear Algebra
+          children:
+            - file: Applied_Linear_Algebra/Applied_Linear_Algebra.md
+            - file: Applied_Linear_Algebra/Content_Bin_1.md
+        - title: Machine Learning
+          children:
+            - file: Machine_Learning/Chapter_1.md
     - title: Projects
       children:
         - file: Projects/Data_Science_Internship.md
         - file: Projects/Astronomy_ML.ipynb
   bibliography:
     - references.bib
-    
+
 site:
   template: book-theme
-  title: Hunter Carroll - Personal Website
+  title: Hunter Carroll
   actions:
     - title: GitHub
       url: https://github.com/HUNTERJCARROLL/Hunter_Carroll_Book
+    - title: LinkedIn
+      url: YOUR_LINKEDIN_URL
+    - title: CV
+      url: cv.html
   options:
-    logo: Images/MrCrabs.JPG
+    logo: Images/logo.png
     logo_text: Hunter Carroll
-    # Make references numbered like [1], [2], ...
-    favicon: Images/favicon-16x16.png
+    favicon: Images/favicon.png
     numbered_references: true
-
+    extra_css:
+      - _static/custom.css 

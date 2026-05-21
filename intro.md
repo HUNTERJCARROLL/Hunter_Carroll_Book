@@ -1,44 +1,64 @@
-:::{figure} /Images/selfpic.jpg
+:::{div} hero
+:::{figure} Images/selfpic.jpg
 :alt: Hunter Carroll
-:width: 260px
-:align: center
-
-## Hunter Carroll - Personal Website
-
+:width: 220px
+:align: right
 :::
 
-Welcome. My name is **Hunter Carroll**, and I am a PhD student in **Applied Mathematics** at the **University of Colorado Denver**.
+# Hunter Carroll
 
-This site collects my graduate notes, research materials, worked-out solutions, and approaches to mathematical problem solving as I work through my PhD.
+**Ph.D. Student in Applied Mathematics**  
+**University of Colorado Denver**
 
-:::{admonition} Purpose of This Site
-:class: note
+I study applied mathematics, machine learning, uncertainty quantification, and mathematical structures underlying neural networks. My current interests include numerical linear algebra, applied analysis, and operator-algebraic approaches to understanding hidden states in neural networks.
 
-These pages serve as a living collection of my mathematical development, including course notes, research ideas, computational experiments, and problem-solving strategies.
+[GitHub](https://github.com/HUNTERJCARROLL) · [LinkedIn](YOUR_LINKEDIN_URL) · [CV](cv.md) · [Email](mailto:YOUR_EMAIL)
 :::
+
+## Biography
+
+I am a Ph.D. student in Applied Mathematics at the University of Colorado Denver. This website collects my research interests, projects, graduate notes, and computational experiments.
 
 ## Research Interests
 
-My current research interests include:
-
-- Uncertainty Quantification
-- Machine Learning
-- Numerical Simulation
-- Applied Analysis
-- Numerical Linear Algebra
-
-## Main Areas
-
-:::{admonition} Topics Covered
-:class: tip
-
-- Applied Analysis
-- Applied Linear Algebra
-- Data Science Projects
-- Mathematical Research Notes
-- Computational Experiments
+::::{grid} 2
+:::{card} Machine Learning Theory
+Understanding neural network behavior through mathematical and computational tools.
 :::
 
-## How to Use These Notes
+:::{card} Uncertainty Quantification
+Studying uncertainty, calibration, and reliability in predictive models.
+:::
 
-The sidebar contains organized sections for coursework, projects, and research-related material. Many pages include definitions, examples, proofs, computations, and interactive notebooks.
+:::{card} Applied Analysis
+Graduate notes and problem-solving work in analysis and related areas.
+:::
+
+:::{card} Numerical Linear Algebra
+Computational methods, matrix analysis, and numerical experiments.
+:::
+::::
+
+## Selected Projects
+
+::::{grid} 2
+:::{card} Astronomy Machine Learning
+:link: Projects/Astronomy_ML.ipynb
+
+Machine learning experiments for astronomy-related data.
+:::
+
+:::{card} Data Science Internship
+:link: Projects/Data_Science_Internship.md
+
+Applied data science work and project documentation.
+:::
+::::
+
+## Graduate Notes
+
+My graduate notes are organized by subject and are meant to serve as a living record of my mathematical development.
+
+- [Applied Analysis](Applied_Analysis/Applied_Analysis.md)
+- [Applied Linear Algebra](Applied_Linear_Algebra/Applied_Linear_Algebra.md)
+- [Machine Learning](Machine_Learning/Chapter_1.md)
