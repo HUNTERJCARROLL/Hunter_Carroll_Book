@@ -25,11 +25,12 @@ project:
         - file: Applied_Linear_Algebra/Content_Bin_1.md
     - title: Machine Learning
       children:
-        - file: Chapter_1.md
+        - file: Machine_Learning/Chapter_1.md
     - title: Projects
       children:
         - file: Projects/Data_Science_Internship.md
         - file: Projects/notebook_test.ipynb
+        - file: Projects/Astronomy_ML.ipynb
   bibliography:
     - references.bib
     
