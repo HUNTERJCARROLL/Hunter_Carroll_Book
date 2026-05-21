@@ -35,7 +35,7 @@ project:
     
 site:
   template: book-theme
-  title: Hunter Carroll 
+  title: Hunter Carroll - Personal Website
   actions:
     - title: GitHub
       url: https://github.com/HUNTERJCARROLL/Hunter_Carroll_Book

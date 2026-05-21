@@ -3,7 +3,8 @@
 :width: 260px
 :align: center
 
-Hunter Carroll
+## Hunter Carroll - Personal Website
+
 :::
 
 Welcome. My name is **Hunter Carroll**, and I am a PhD student in **Applied Mathematics** at the **University of Colorado Denver**.
